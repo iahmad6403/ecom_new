@@ -22,7 +22,7 @@ app = Flask(__name__)
 app=Flask(__name__,template_folder='ecommerce_dashboard-main/templates/')
 
 
-@app.route("/")
+@app.route("/") 
 def index() -> str:
     return render_template("dashboard.html")
 
